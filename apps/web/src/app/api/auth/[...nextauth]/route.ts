@@ -6,6 +6,7 @@ import { JWT } from "next-auth/jwt";
 export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/sign-in",
+    signOut: "/sign-out",
   },
   session: {
     strategy: "jwt",
